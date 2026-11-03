@@ -1,0 +1,60 @@
+{
+  "notice": "User-supplied evidence only. Source links, quotes and facts have NOT been verified.",
+  "count": 3,
+  "items_needing_attention": 2,
+  "items": [
+    {
+      "row": 1,
+      "evidence": {
+        "id": "E01",
+        "question": "What revenue is reported?",
+        "title": "Synthetic public-disclosure training fixture",
+        "source_url": "https://github.com/Vesper2026/filing-evidence-ledger/blob/main/examples/sample.json",
+        "location": "Synthetic page 12",
+        "disclosed_on": "2026-01-15",
+        "quote": "Revenue was USD 12 million for FY2025.",
+        "value": "12.00",
+        "currency": "USD",
+        "unit": "million",
+        "period": "FY2025",
+        "status": "unreviewed"
+      },
+      "review_status": "unreviewed",
+      "checks": []
+    },
+    {
+      "row": 2,
+      "evidence": {
+        "id": "E02",
+        "question": "What revenue is reported?",
+        "title": "Synthetic public-disclosure training fixture",
+        "source_url": "https://github.com/Vesper2026/filing-evidence-ledger/blob/main/examples/sample.json",
+        "location": "Synthetic page 13",
+        "quote": "The comparison figure was USD 9 million.",
+        "value": "9.0",
+        "currency": "USD",
+        "unit": "million"
+      },
+      "review_status": "unreviewed",
+      "checks": [
+        "missing:period"
+      ]
+    },
+    {
+      "row": 3,
+      "evidence": {
+        "id": "E03",
+        "question": "What requires follow-up?",
+        "title": "合成披露練習資料",
+        "source_url": "https://github.com/Vesper2026/filing-evidence-ledger/blob/main/examples/sample.json",
+        "location": "合成第 14 頁",
+        "quote": "",
+        "status": "unreviewed"
+      },
+      "review_status": "unreviewed",
+      "checks": [
+        "missing:quote"
+      ]
+    }
+  ]
+}

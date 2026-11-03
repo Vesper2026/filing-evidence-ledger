@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filing-evidence-ledger"
+version = "0.1.0"
+description = "Local ledger and completeness checklist for user-supplied public disclosure evidence"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+filing-evidence = "filing_evidence:main"
+
+[tool.setuptools]
+py-modules = ["filing_evidence"]
