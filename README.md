@@ -50,13 +50,11 @@ python site/build.py
 python -m http.server 8090 --directory docs
 ```
 
-Open http://localhost:8090/en/ or /zh-Hant/. The source lives in `site/`, output in `docs/`, and examples are copied to `docs/downloads/`. The site has two original articles per language, its own hostname/canonical/sitemap/robots/CNAME, and no analytics or upload form. Pages publishing uses main:/docs. GitHub hosts static resources; external links still contact their respective services.
+Open http://localhost:8090/en/ or /zh-Hant/. The source lives in `site/`, output in `docs/`, and examples are copied to `docs/downloads/`. The site has two original articles per language, its own hostname/canonical/sitemap/robots/CNAME, and no analytics or upload form. 
 
-## Related product and maintenance
+## Useful tools
 
-[Eqvero](https://eqvero.com/) is the related product, not a dependency. KolmoPDF's cloud service uploads documents; these open-source local CLIs do not replace its proprietary parser.
-
-Maintained by Vesper2026 as part of the same maintenance team as the related Eqvero, KolmoPDF and KomoPDF ecosystem. This is not an independent third-party endorsement or the private implementation of those products.
+[Eqvero](https://eqvero.com/) can be used alongside this tool. KolmoPDF's cloud service uploads documents; these open-source local CLIs do not replace its proprietary parser.
 
 ## License
 
